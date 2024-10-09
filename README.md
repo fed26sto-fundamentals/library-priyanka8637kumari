@@ -10,13 +10,17 @@ This is the Library project, part of [The Odin Project] curriculum. The objectiv
 
 ## Features
 
-Add Books: Users can add books by entering details in a form.
-Read Status Toggle: Users can toggle the read status of a book directly from the list.
-Remove Books: Users can remove any book from their library.
+1. Add Books: Users can add books by entering details in a form.
+   
+2. Read Status Toggle: Users can toggle the read status of a book directly from the list.
+   
+3. Remove Books: Users can remove any book from their library.
 Data Persist
 
 ## Technologies Used
 
-HTML - Structure of the application
-CSS - Styling and layout
-JavaScript - Core logic, DOM manipulation, and local storage management
+1. HTML - Structure of the application
+
+2. CSS - Styling and layout
+   
+3. JavaScript - Core logic, DOM manipulation, and local storage management
