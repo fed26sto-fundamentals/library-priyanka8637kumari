@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Library Ledger</title>
+    <link rel="stylesheet" href="styles.css" />
+    <script src="script.js" defer></script>
+  </head>
+  <body>
+    <!--Code of header of Library website-->
+    <header>
+      <div class="logoSection">
+        <img
+          src="assets/logo2.jpg"
+          alt="library-logo"
+          width="70px"
+          height="70px"
+        />
+        <h4>My Library</h4>
+      </div>
+    </header>
+    <!--code for the header ends here-->
+    <main>
+      <div class="bookFormContainer">
+        <!--Button to add a book in the library-->
+        <button id="new-book-btn">Add a New Book</button>
+        <!--form to take inputs after clicking the above button-->
+        <form action="#" style="display: none" id="addBookForm">
+          <fieldset>
+            <label for="bookTitle"
+              >Title
+              <input
+                type="text"
+                placeholder="title"
+                id="bookTitle"
+                name="BookTitle"
+                required
+            /></label>
+
+            <label for="bookAuthor"
+              >Author
+              <input
+                type="text"
+                placeholder="author"
+                id="bookAuthor"
+                name="bookAuthor"
+                required
+            /></label>
+
+            <label for="bookPages"
+              >Pages
+              <input
+                type="number"
+                placeholder="No. of pages"
+                id="bookPages"
+                name="bookPages"
+                min="1"
+                required
+            /></label>
+          </fieldset>
+
+          <fieldset>
+            <legend>Have you read this book?</legend>
+            <div class="radio-group">
+              <label for="read"
+                ><input type="radio" id="read" name="status" value="read" />
+                Read</label
+              >
+
+              <!-- <label for="unread"
+                ><input type="radio" id="unread" name="status" value="unread" />
+                Unread</label
+              > -->
+            </div>
+          </fieldset>
+          <!-- Submit Button -->
+          <button type="submit">Submit</button>
+        </form>
+      </div>
+      
+<!-- Container to show List of Books -->
+      <div id="bookList">
+        <h1>Book List</h1>
+      </div>
+    </main>
+  </body>
+</html>
